@@ -1,5 +1,6 @@
 # Comparative-Pivot-Point-Models - Gits #
 # Comparative Evaluation: Public Models Pivot Points vs Proprietary Model - Proximity and Precision-  Pivot Point in Highs Peaks and Lows Valleys of Session over 482 Days - (Time Series ETF-SPY - Frame 1 min).
+# Propietary Model: Jump Inside the Fractal Spread" Model (JiFS) / Nestor Mendez (Source Code: Not in script, Just Historical  predictions)
 # Author: Nestor Mendez
 # Year 2023, October, 7
 # For testing purposes only
