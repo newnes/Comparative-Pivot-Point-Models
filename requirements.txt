@@ -1,0 +1,4 @@
+pandas==1.1.5
+matplotlib==3.5.3
+tqdm==4.66.1
+click==8.1.7

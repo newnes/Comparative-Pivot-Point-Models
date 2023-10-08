@@ -1,9 +1,38 @@
-# Comparative-Pivot-Point-Models - Gits #
-# Comparative Evaluation: Public Models Pivot Points vs Proprietary Model - Proximity, Precision and Frecuency-  Pivot Point in Highs Peaks and Lows Valleys of Session over 482 Days - (Time Series ETF-SPY - Frame 1 min).
-# Propietary Model: Jump Inside the Fractal Spread" Model (JiFS) / Nestor Mendez (Source Code: Not in script, Just Historical  predictions)
-# Author: Nestor Mendez
-# Year 2023, October, 7
-# For testing purposes only
+# Comparative-Pivot-Point-Models
+
+Comparative Evaluation: Public Models Pivot Points vs Proprietary Model - Proximity, Precision and Frecuency-  Pivot Point in Highs Peaks and Lows Valleys of Session over 482 Days - (Time Series ETF-SPY - Frame 1 min).
+Propietary Model: Jump Inside the Fractal Spread" Model (JiFS) / Nestor Mendez (Source Code: Not in script, Just Historical  predictions)
+Author: Nestor Mendez
+Year 2023, October, 7
+
+> #### Disclaimer:
+> For testing purposes only
+
+## Installation
+
+### WINDOWS: 
+
+1. Updating `pip`
+```bash
+python.exe -m pip install --upgrade pip
+py -m pip --version
+```
+2. Installing `virtualenv`
+```bash
+py -m pip install --user virtualenv
+```
+3. Creating a virtualenv:
+```bash
+py -m venv env
+.\env\Scripts\activate
+```
+
+4. Install all dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## What are Pivot points?
 
 Pivot points are technical analysis tools used to determine potential levels of support and resistance in the market. They are especially popular among intraday traders due to their ability to derive a variety of support and resistance levels based on the previous day's price activity.
 
@@ -11,7 +40,7 @@ Definition: A pivot point is a calculated price that is taken as a key indicator
 
 From the central pivot point, multiple support and resistance levels can be derived. These levels are calculated using differences between the previous day's high and low prices and the central pivot point.
 
-Utility:
+### Utility:
 
 Support and Resistance: The levels derived from pivot points act as supports and resistances on the chart. These levels indicate areas where the price might face obstacles.
 
@@ -20,7 +49,7 @@ Prediction of Price Movement: Traders often use pivot points to anticipate possi
 Entry and Exit Points: Traders can use these levels to identify possible entry and exit points for their trades.
 
 
-Objective:
+### Objective:
 
 The objective of this script is to conduct a comparative analysis between several public pivot point models, such as Fibonacci, Camarilla, Floor, Woodies, Demark, Gann Angle, and Murrey Math Lines, contrasting them with a proprietary model named 'Mendez (JiFS)'. 
 
@@ -28,8 +57,57 @@ This analysis aims to determine the accuracy, proximity, and frequency with whic
 
 Similarly, it considers the index of the candlestick with the lowest price of the session (min-valley) and its associated OHLC values. Therefore, the predicted levels must meet certain conditions to consider their proximity, accuracy, and frequency.
 
+## RUN Script:
 
-Abstract Propietary Model:
+**Show help:**
+```bash
+py Comparative_Pivots_points.py --help
+```
+Expected answer:
+```commandline
+Usage: Comparative_Pivots_points.py [OPTIONS]
+
+Options:
+  -c, --csv_file TEXT  CSV file for analysis (default: data/ALL.csv)
+  -f, --fig_name TEXT  name for the png image metric results (default:
+                       metrics)
+  --help               Show this message and exit.
+```
+**Run Script**
+```bash
+py Comparative_Pivots_points.py
+```
+Expected answer:
+```commandline
+****************************************************************
+csv-file: data/ALL.csv
+fig-name: metrics
+****************************************************************
+482 ----------
+Searching...: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 481/481 [00:55<00:00,  8.65it/s]
+Total results of type 'Fibonacci': 28
+Average results of type 'Fibonacci' by day: 0.06
+Total results of type 'Camarilla': 82
+Average results of type 'Camarilla' by day: 0.17
+Total results of type 'Floor': 24
+Average results of type 'Floor' by day: 0.05
+Total results of type 'Woodies': 17
+Average results of type 'Woodies' by day: 0.04
+Total results of type 'Demark': 18
+Average results of type 'Demark' by day: 0.04
+Total results of type 'Gann Angle': 83
+Average results of type 'Gann Angle' by day: 0.17
+Total results of type 'Murrey Math Lines': 57
+Average results of type 'Murrey Math Lines' by day: 0.12
+Total results for 'Mendez': 202
+Average results for 'Mendez' per day: 0.42
+```
+
+Output's image: 
+![metrics](output/metrics.svg)
+
+
+### Abstract Propietary Model:
 
 --- "Jump Inside the Fractal Spread" Model (JiFS) ---
 
@@ -47,4 +125,11 @@ As new data emerges, these ranges are dynamically recalculated to accommodate th
 
 The significance of this process hinges on the prediction method employed to compute the standard deviation. In JiFS, a specialized proprietary model is leveraged to predict the standard deviation, infusing unique value and precision to the model.
 
-Conclusion: The "Jump Inside the Fractal Spread" model proposes a novel approach to understand and analyze the spread in financial markets. By identifying and leveraging the fractal nature of the spread, JiFS offers an analytical tool that can deliver unparalleled insights into the behavior of financial assets.
+## Conclusion
+
+> Conclusion: The "Jump Inside the Fractal Spread" model proposes a novel approach to understand and analyze the spread in financial markets. By identifying and leveraging the fractal nature of the spread, JiFS offers an analytical tool that can deliver unparalleled insights into the behavior of financial assets.
+
+
+## Contact Me:
+
+
