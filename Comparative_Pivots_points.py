@@ -193,7 +193,7 @@ def calculate_pivot_points(candlex, lst_day):
     murr1 = round(murr2 - ((high - low)) / 8, 2) # 1/8
     murr0 = round(low, 2)  # 0/8
 
-    ############################ PIVOTS --MENDEZ  ##############################
+    ############################ PIVOTS "JiFS" / MENDEZ  ##############################
 
     # Obtain values of the highest and lowest price
     high_nes = candlex.high.max()
