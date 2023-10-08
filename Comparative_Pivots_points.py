@@ -3,6 +3,7 @@
 # Author: Nestor Mendez
 # Year 2023, October, 7
 # For testing purposes only
+# Model: Jump Inside the Fractal Spread" Model (JiFS) /Nestor Mendez 
 ###################
 
 import pandas as pd
