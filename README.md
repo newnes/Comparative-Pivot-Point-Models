@@ -1,7 +1,7 @@
 # Comparative-Pivot-Point-Models
 
 Comparative Evaluation: Public Models Pivot Points vs Proprietary Model - Proximity, Precision and Frecuency-  Pivot Point in Highs Peaks and Lows Valleys of Session over 482 Days - (Time Series ETF-SPY - Frame 1 min).
-Propietary Model: Jump Inside the Fractal Spread" Model (JiFS) / Nestor Mendez (Source Code: Not in script, Just Historical  predictions)
+Propietary Model: "Jump Into the Fractal Dispersion" Model (JiFD) / Nestor Mendez (Source Code: Not in script, Just Historical Real Pivots Points)
 Author: Nestor Mendez
 Year 2023, October, 7
 
@@ -51,7 +51,7 @@ Entry and Exit Points: Traders can use these levels to identify possible entry a
 
 ### Objective:
 
-The objective of this script is to conduct a comparative analysis between several public pivot point models, such as Fibonacci, Camarilla, Floor, Woodies, Demark, Gann Angle, and Murrey Math Lines, contrasting them with a proprietary model named 'Mendez (JiFS)'. 
+The objective of this script is to conduct a comparative analysis between several public pivot point models, such as Fibonacci, Camarilla, Floor, Woodies, Demark, Gann Angle, and Murrey Math Lines, contrasting them with a proprietary model named 'Mendez (JIFD)'. 
 
 This analysis aims to determine the accuracy, proximity, and frequency with which these models predict essential support and resistance levels. Specifically, the analysis focuses on how these models align with the index of the candlestick that has the highest price of the session (max-peak) and its corresponding OHLC values. 
 
@@ -109,25 +109,25 @@ Output's image:
 
 ### Abstract Propietary Model:
 
---- "Jump Inside the Fractal Spread" Model (JiFS) ---
+--- "Jump Into the Fractal Dispersion" Model (JIFD) ---
 
-The spread in the prices of financial assets has long been a widely observed and studied phenomenon. However, the "Jump Inside the Fractal Spread" (JiFS) model offers a unique perspective by suggesting an inherent fractal nature within this spread.
+The spread in the prices of financial assets has long been a widely observed and studied phenomenon. However, the "Jump Into the Fractal Dispersion" (JIFD) model offers a unique perspective by suggesting an inherent fractal nature within this dispersion.
 
-Central Thesis of the JiFS Model: Movements and fluctuations in the prices of financial assets exhibit patterns that repeat across different time scales, implying an underlying fractal structure in their spread.
+Central Thesis of the JIFD Model: Movements and fluctuations in the prices of financial assets exhibit patterns that repeat across different time scales, implying an underlying fractal structure in their spread.
 
-Standard Deviation as Fractal Spread: JiFS introduces a prediction of daily or intraday standard deviation. Yet, rather than being merely a measure of spread, the predicted standard deviation becomes the cornerstone for constructing what the model terms as "fractal dispersion ranges." 
+Standard Deviation as Fractal Dispersion: JIFD introduces a prediction of daily or intraday standard deviation. Yet, rather than being merely a measure of spread, the predicted standard deviation becomes the cornerstone for constructing what the model terms as "fractal dispersion ranges." 
 
 These ranges indicate the probable areas within which the asset's price is expected to fluctuate or the zones the price will breach, subsequently entering a new fractal self-similarity of dispersion.
 
-Starting from a daily or intraday standard deviation prediction, JiFS uses the day's maximum and minimum price to initiate the construction of bidirectional dispersion ranges. These ranges act as supports and resistances, denoting areas within which price fluctuation is anticipated. 
+Starting from a daily or intraday standard deviation prediction, JIFD uses the day's maximum and minimum price to initiate the construction of bidirectional dispersion ranges. These ranges act as supports and resistances, denoting areas within which price fluctuation is anticipated. 
 
 As new data emerges, these ranges are dynamically recalculated to accommodate the ever-changing market conditions.
 
-The significance of this process hinges on the prediction method employed to compute the standard deviation. In JiFS, a specialized proprietary model is leveraged to predict the standard deviation, infusing unique value and precision to the model.
+The significance of this process hinges on the prediction method employed to compute the standard deviation. In JIFD, a specialized proprietary model is leveraged to predict the standard deviation, infusing unique value and precision to the model.
 
 ## Conclusion
 
-> Conclusion: The "Jump Inside the Fractal Spread" model proposes a novel approach to understand and analyze the spread in financial markets. By identifying and leveraging the fractal nature of the spread, JiFS offers an analytical tool that can deliver unparalleled insights into the behavior of financial assets.
+> Conclusion: The "Jump Into the Fractal Dispersion" model proposes a novel approach to understand and analyze the spread in financial markets. By identifying and leveraging the fractal nature of the spread, JIFD offers an analytical tool that can deliver unparalleled insights into the behavior of financial assets.
 
 
 ## Contact Me:
